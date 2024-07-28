@@ -1,0 +1,33 @@
+.side-nav-section {
+  padding: 106px 32px 32px 80px;
+}
+
+.side-nav {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.side-nav__item {
+  opacity: 0.5;
+  display: block;
+  padding: 6px 0;
+  font-family: 'Roboto Medium';
+}
+
+.side-nav__item_active {
+  color: var(--color-secondary);
+  opacity: 1;
+}
+
+.side-nav__item:hover {
+  opacity: 1;
+}
+
+@media (max-width: 375px) {
+  .side-nav-section {
+    display: none;
+  }
+}

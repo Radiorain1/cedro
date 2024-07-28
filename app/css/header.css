@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 32px;
+  border-bottom: 1px solid var(--color-grey);
+}
+
+.header__logo {
+  display: flex;
+}
+
+.header__logo:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 375px) {
+  .header {
+    padding: 16px 16px;
+  }
+}

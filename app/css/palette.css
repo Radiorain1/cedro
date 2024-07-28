@@ -1,0 +1,24 @@
+:root {
+  --color-primary: #21242e;
+  --color-secondary: #d0bc7a;
+  --color-grey: #e4e4e4;
+  --color-secondary-hover: brightness(0) saturate(100%) invert(100%) sepia(13%)
+    saturate(6321%) hue-rotate(338deg) brightness(85%) contrast(82%);
+  --color-primary-hover: brightness(0) saturate(100%) invert(8%) sepia(4%)
+    saturate(4719%) hue-rotate(189deg) brightness(100%) contrast(85%);
+  --color-grey-hover: brightness(0) saturate(100%) invert(56%) sepia(0%)
+    saturate(6931%) hue-rotate(288deg) brightness(93%) contrast(92%);
+}
+
+html,
+body {
+  color: var(--color-primary);
+}
+
+a {
+  color: var(--color-primary);
+}
+
+a:hover {
+  color: var(--color-secondary);
+}

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cedro</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <a href="/" class="header__logo">
+        <img src="./images/src/logo.svg" alt="" />
+      </a>
+
+      <!-- inline-nav -->
+      <div class="inline-nav">
+        <a href="tel:8(800)555-35-35" class="inline-nav__contact">
+          <img
+            class="inline-nav__contact-icon"
+            src="./images/src/icon_phone.svg"
+            alt=""
+          />
+          <span class="inline-nav__contact-label">8 (800) 555-35-35</span>
+        </a>
+        <div class="inline-nav__icons">
+          <a href="/" id="favorite-counter" class="d-flex icon-heart">
+            <img
+              src="./images/src/icon_heart.svg"
+              alt=""
+              class="inline-nav__icons__item"
+            />
+            <span id="badge" class="badge"></span>
+          </a>
+          <a href="/" class="d-flex">
+            <img
+              src="./images/src/icon_user.svg"
+              alt=""
+              class="inline-nav__icons__item"
+            />
+          </a>
+        </div>
+        <button class="dropdown-toggle inline-nav__burger">
+          <img src="./images/src/icon_burger.svg" alt="" />
+        </button>
+        <div id="dropdown-menu" class="dropdown-menu">
+          <div class="dropdown-menu__header">
+            <a href="/" class="header__logo">
+              <img src="./images/src/logo.svg" alt="" />
+            </a>
+            <button class="dropdown-toggle dropdown-menu__close">
+              <img src="./images/src/icon_close.svg" alt="" />
+            </button>
+          </div>
+          <div class="dropdown-menu__body">
+            <div class="row gap-sm-40">
+              <div class="col-6 col-sm-12">
+                <h3 class="dropdown-menu__body-title">Продукция</h3>
+                <ul class="dropdown-menu__body-list">
+                  <li><a href="">Пигменты</a></li>
+                  <li><a href="">Пигменты</a></li>
+                  <li><a href="">Аппараты</a></li>
+                  <li><a href="">Иглы</a></li>
+                  <li><a href="">Расходные материалы</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-sm-12">
+                <h3 class="dropdown-menu__body-title">Компания</h3>
+                <ul class="dropdown-menu__body-list">
+                  <li><a href="">Блог</a></li>
+                  <li><a href="">Обучение</a></li>
+                  <li><a href="">Стать представителем</a></li>
+                  <li><a href="">Контакты</a></li>
+                  <li><a href="">Политика конфиденциальности</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- inline-nav -->
+    </header>
+    <!-- header -->
+
+    <!-- inline-nav__mobile -->
+    <div class="inline-nav__mobile display-none display-sm-block">
+      <div class="inline-nav__mobile-container">
+        <a href="" class="side-nav__item side-nav__item_active"> ПРОФИЛЬ </a>
+        <a href="" class="side-nav__item">МОИ ЗАКАЗЫ</a>
+        <a href="" class="side-nav__item">ВЫХОД</a>
+      </div>
+    </div>
+    <!-- inline-nav__mobile -->
+
+    <main>
+      <!-- profile-section -->
+      <section class="profile-section">
+        <div class="row">
+          <div class="col-3">
+            <!-- side-nav -->
+            <div class="side-nav-section">
+              <ul class="side-nav">
+                <li>
+                  <a href="" class="side-nav__item side-nav__item_active">
+                    ПРОФИЛЬ
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="side-nav__item">МОИ ЗАКАЗЫ</a>
+                </li>
+                <li>
+                  <a href="" class="side-nav__item">ВЫХОД</a>
+                </li>
+              </ul>
+            </div>
+            <!-- side-nav -->
+          </div>
+          <div class="col-9 col-sm-12">
+            <!-- form-section -->
+            <div class="form-section">
+              <h1 class="form-section__title">ПРОФИЛЬ</h1>
+              <form action="" class="form">
+                <h3 class="form__title">Данные профиля</h3>
+                <div class="form__item">
+                  <label for="input-name" class="form__label">ФИО</label>
+                  <input
+                    type="text"
+                    class="form__control"
+                    id="input-name"
+                    placeholder="Алексеева Ульяна Евгеньевна"
+                  />
+                </div>
+                <div class="form__item">
+                  <label for="input-email" class="form__label">Почта</label>
+                  <input
+                    type="email"
+                    class="form__control"
+                    id="input-email"
+                    placeholder="pochta07@mail.ru"
+                  />
+                </div>
+                <div class="form__item form__item_last">
+                  <label for="input-phone" class="form__label">Телефон</label>
+                  <input
+                    type="text"
+                    class="form__control"
+                    id="input-phone"
+                    placeholder="+7 (999) 999-99-99"
+                  />
+                </div>
+                <div class="form__action">
+                  <button class="form__button" type="submit">
+                    Сохранить изменения
+                  </button>
+                </div>
+              </form>
+            </div>
+            <!-- form-section -->
+          </div>
+        </div>
+      </section>
+      <!-- profile-section -->
+
+      <section class="slider-section">
+        <div class="slider-section__header">
+          <h2 class="slider-section__title">
+            <span class="slider-section__title_highlighted">ТРЕНДЫ</span> СЕЗОНА
+          </h2>
+          <a href="" class="button-link display-sm-none">
+            Перейти в каталог
+            <img
+              src="./images/src/right_arrow.svg"
+              alt=""
+              class="button-link__icon"
+            />
+          </a>
+        </div>
+        <!-- swiper -->
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card__badge">Sale</div>
+                <div class="card__icon">
+                  <img src="./images/src/icon_heart-fill.svg" alt="" />
+                </div>
+                <div class="card__image">
+                  <img src="./images/src/slide-img.png" alt="" />
+                </div>
+                <div class="card__body">
+                  <h4 class="card__title">Brown to Blonde</h4>
+                  <div class="card__description">
+                    <div>Пигмент для бровей</div>
+                    <div>12 ml.</div>
+                  </div>
+                  <div class="card__price">
+                    <span>1 500₽</span>
+                    <span class="card__price_old">3 000₽</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card__badge">Акция! 1+1=3</div>
+                <div class="card__icon">
+                  <img src="./images/src/icon_heart-fill.svg" alt="" />
+                </div>
+                <div class="card__image border-orange">
+                  <img src="./images/src/slide-img.png" alt="" />
+                </div>
+                <div class="card__body">
+                  <h4 class="card__title">Brown to Blonde</h4>
+                  <div class="card__description">
+                    <div>Пигмент для бровей</div>
+                    <div>12 ml.</div>
+                  </div>
+                  <div class="card__price">
+                    <span>1 500₽</span>
+                    <span class="card__price_old">3 000₽</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card__badge">Sale</div>
+                <div class="card__icon">
+                  <img src="./images/src/icon_heart-fill.svg" alt="" />
+                </div>
+                <div class="card__image border-burgundy">
+                  <img src="./images/src/slide-img.png" alt="" />
+                </div>
+                <div class="card__body">
+                  <h4 class="card__title">Brown to Blonde</h4>
+                  <div class="card__description">
+                    <div>Пигмент для бровей</div>
+                    <div>12 ml.</div>
+                  </div>
+                  <div class="card__price">
+                    <span>1 500₽</span>
+                    <span class="card__price_old">3 000₽</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card__badge">Бесплатная доставка</div>
+                <div class="card__icon">
+                  <img src="./images/src/icon_heart-fill.svg" alt="" />
+                </div>
+                <div class="card__image border-orange">
+                  <img src="./images/src/slide-img.png" alt="" />
+                </div>
+                <div class="card__body">
+                  <h4 class="card__title">Brown to Blonde</h4>
+                  <div class="card__description">
+                    <div>Пигмент для бровей</div>
+                    <div>12 ml.</div>
+                  </div>
+                  <div class="card__price">
+                    <span>1 500₽</span>
+                    <span class="card__price_old">3 000₽</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card__badge">Sale</div>
+                <div class="card__icon">
+                  <img src="./images/src/icon_heart-fill.svg" alt="" />
+                </div>
+                <div class="card__image">
+                  <img src="./images/src/slide-img.png" alt="" />
+                </div>
+                <div class="card__body">
+                  <h4 class="card__title">Brown to Blonde</h4>
+                  <div class="card__description">
+                    <div>Пигмент для бровей</div>
+                    <div>12 ml.</div>
+                  </div>
+                  <div class="card__price">
+                    <span>1 500₽</span>
+                    <span class="card__price_old">3 000₽</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- swiper -->
+        <div class="slider-section__actions display-none display-sm-block">
+          <a href="" class="button-link">
+            Перейти в каталог
+            <img
+              src="./images/src/right_arrow.svg"
+              alt=""
+              class="button-link__icon"
+            />
+          </a>
+        </div>
+      </section>
+    </main>
+    <script src="js/app.min.js"></script>
+  </body>
+</html>

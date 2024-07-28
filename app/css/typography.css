@@ -1,0 +1,45 @@
+html,
+body {
+  font-size: 14px;
+  font-family: 'Roboto Regular';
+  line-height: 24px;
+}
+
+h1 {
+  font-size: 80px;
+  margin: 0;
+  line-height: 80px;
+}
+
+h2 {
+  font-size: 48px;
+  line-height: 56px;
+  font-family: 'Roboto Medium';
+}
+
+h3 {
+  font-size: 24px;
+  margin: 0;
+  font-family: 'Roboto Medium';
+}
+
+p {
+  margin: 0;
+}
+
+@media (max-width: 375px) {
+  h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  h3 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}

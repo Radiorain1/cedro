@@ -1,0 +1,137 @@
+.profile-section {
+  border-bottom: 1px solid var(--color-grey);
+}
+
+.form-section {
+  padding-top: 112px;
+  border-left: 1px solid var(--color-grey);
+}
+
+.form-section__title {
+  padding: 0 95px 80px;
+  border-bottom: 1px solid var(--color-grey);
+}
+
+.form {
+  padding-top: 112px;
+}
+
+.form__title {
+  padding: 0 95px 80px;
+}
+
+.form__item {
+  max-width: 639px;
+  padding: 0 95px 24px;
+}
+
+.form__item_last {
+  padding-bottom: 80px;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 16px;
+  opacity: 0.4;
+}
+
+.form__control {
+  width: 100%;
+  height: 56px;
+  padding: 16px;
+  font-size: 16px;
+  color: var(--color-primary);
+  line-height: 24px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  background-color: #f7f7f7;
+}
+
+.form__control::placeholder {
+  opacity: 0.4;
+}
+
+.form__control:hover::placeholder,
+.form__control:focus::placeholder {
+  color: var(--color-primary);
+  opacity: 1;
+}
+
+.form__control:focus {
+  border: 1px solid var(--color-primary);
+  color: var(--color-primary);
+  opacity: 1;
+}
+
+.form__button {
+  max-width: 100%;
+  border-radius: 4px;
+  background-color: var(--color-primary);
+  color: #fff;
+  border: 0;
+  padding: 16px 32px;
+  font-size: 16px;
+  font-family: 'Roboto Medium';
+  cursor: pointer;
+}
+
+.form__action {
+  padding: 80px 95px;
+  border-top: 1px solid var(--color-grey);
+}
+
+.form__button:hover,
+.form__button:active {
+  background-color: var(--color-secondary);
+}
+
+.form__button:active {
+  opacity: 0.4;
+}
+
+@media (max-width: 375px) {
+  .form-section__title {
+    padding: 32px 16px;
+    border-bottom: 0;
+  }
+
+  .form-section {
+    padding-top: 0;
+    border-left: 0;
+  }
+
+  .form__action {
+    border-top: 0;
+  }
+
+  .form {
+    padding-top: 0;
+  }
+
+  .form__title {
+    padding: 0 16px 32px;
+  }
+
+  .form__item {
+    padding: 0 16px 16px;
+  }
+
+  .form__item_last {
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--color-grey);
+  }
+
+  .form__action {
+    padding: 32px 16px 65px;
+  }
+
+  .form__button {
+    width: 100%;
+  }
+
+  .profile-section {
+    border-bottom: 0;
+  }
+}

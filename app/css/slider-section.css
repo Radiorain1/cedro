@@ -1,0 +1,35 @@
+.slider-section {
+  padding: 112px 0 112px 80px;
+}
+
+.slider-section__header {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 80px;
+}
+
+.slider-section__title {
+  margin-bottom: 48px;
+}
+
+.slider-section__title_highlighted {
+  color: var(--color-secondary);
+}
+
+.slider-section__actions {
+  padding: 32px 0;
+}
+
+@media (max-width: 375px) {
+  .slider-section {
+    padding: 0 16px;
+  }
+
+  .slider-section__header {
+    padding-right: 0;
+  }
+
+  .slider-section__title {
+    margin-bottom: 32px;
+  }
+}

@@ -1,0 +1,25 @@
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+@media (max-width: 375px) {
+  .display-sm-block {
+    display: block;
+  }
+
+  .display-sm-none {
+    display: none;
+  }
+
+  .gap-sm-40 {
+    gap: 40px;
+  }
+}

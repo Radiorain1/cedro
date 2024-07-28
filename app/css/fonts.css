@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto Regular"),
+    url(../fonts/roboto-regular.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Roboto Medium"), url(../fonts/Roboto-Medium.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Times New Roman";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Times New Roman Bold Italic"),
+    url(../fonts/TimesNewRoman-BoldIt.woff2) format("woff2");
+}

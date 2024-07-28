@@ -1,0 +1,24 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  background-color: #fff;
+  scroll-behavior: smooth;
+}
+
+body.open {
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
