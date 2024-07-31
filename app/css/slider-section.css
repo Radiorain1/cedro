@@ -20,7 +20,7 @@
   padding: 32px 0;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 992px) {
   .slider-section {
     padding: 0 16px;
   }
